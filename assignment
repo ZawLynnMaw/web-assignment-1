@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Login</title>
+   <link rel="stylesheet" href="CSS/style1.css"> 
+</head>
+<body class="bcenter3">
+<br><br><br><br><br>
+
+	<a href="label4.html"><button style="position:absolute;top: 55px; left: 85px;">Register Here</button></a> 
+         <a href="about.html"><button style="position:absolute;top: 55px;">About Us</button></a>
+	<div style="position:relative; top: 85px;">
+        <h3 style="position:relative; top:30px;text-align: center;">Member Login</h3>
+            <br><br>
+            <form>
+            <label for="email" style="font-weight:700 ; position: relative;">Email</label>                                            
+            <input type="email" name="email" id="email" style="font-weight:700 ; position:relative;">
+            <br><br>
+            <label for="password" style="font-weight:700 ;position: relative;">Password</label>                                            
+            <input type="password" name="password" id="password" style="font-weight:700 ;position:relative;"><br><br>
+            <input type="submit" id="submit" value="Login" style="position:relative;">
+            <br><br>
+            <a href="404.html" style="position:relative;;">Forget Password</a>
+        </form>
+	</div>
+</body>
+</html>
